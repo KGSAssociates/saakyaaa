@@ -30,6 +30,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "Saakya Consolidated LLC",
   },
+  icons: {
+    icon: [{ url: "data:," }],
+    shortcut: { url: "data:," },
+    apple: [],
+  },
 };
 
 export default function RootLayout({
@@ -39,11 +44,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico?v=20260116" sizes="16x16" />
-        <link rel="icon" href="/favicon-32x32.png?v=20260116" sizes="32x32" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo3.png?v=20260116" />
-      </head>
       <body className={`${dmSans.variable} ${plusJakarta.variable} antialiased`}>
         <AnnouncementBar />
         <Navbar />
