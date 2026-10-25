@@ -91,11 +91,11 @@ export default function AboutPage() {
         <Container>
           <SectionHeader
             eyebrow="What We Offer"
-            title="Four focused product areas."
+            title="Six focused product areas."
             description="Each category is structured for clear browsing and straightforward wholesale inquiry."
             className="mb-10 md:mb-12"
           />
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {productCategories.map((category) => (
               <div
                 key={category.id}

@@ -250,10 +250,12 @@ export default function ContactPage() {
                   >
                     <option value="">Select a subject</option>
                     <option value="General Inquiry">General Inquiry</option>
-                    <option value="Toilet Paper & Tissue">Tissue &amp; Hygiene</option>
-                    <option value="Food Products">Food Products</option>
+                    <option value="Tissue & Hygiene">Tissue &amp; Hygiene</option>
+                    <option value="Wholesome Foods">Wholesome Foods</option>
+                    <option value="Coconut Range">Coconut Range</option>
                     <option value="Ceylon Cinnamon">Ceylon Cinnamon</option>
-                    <option value="Coco Peat Products">Coco Peat Products</option>
+                    <option value="Growing Solutions">Growing Solutions</option>
+                    <option value="Ceylon Tea">Ceylon Tea</option>
                     <option value="Bulk Pricing">Bulk Pricing</option>
                     <option value="Partnership Opportunity">Partnership Opportunity</option>
                   </select>

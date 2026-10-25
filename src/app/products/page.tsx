@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ProductGrid } from "@/components/Commerce";
 import { ButtonLink, Container, SectionHeader } from "@/components/ui";
 import { productCategories } from "@/lib/products";
@@ -6,25 +7,34 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Browse Saakya Consolidated LLC product categories: tissue & hygiene, food products, Ceylon cinnamon, and coco peat. Available by wholesale inquiry.",
+    "Browse Saakya Consolidated LLC product categories: tissue & hygiene, wholesome foods, coconut range, Ceylon cinnamon, growing solutions, and Ceylon tea.",
 };
 
 export default function ProductsPage() {
   return (
     <div className="bg-ivory">
-      <section className="border-b border-border-subtle bg-navy-950">
-        <Container className="py-14 md:py-20">
-          <p className="mb-3 text-xs font-semibold tracking-[0.18em] text-gold-500 uppercase">
+      <section className="relative flex items-center overflow-hidden border-b border-border-subtle bg-navy-950 min-h-[440px] sm:min-h-[500px] md:min-h-0 md:aspect-[1916/821] w-full">
+        <Image
+          src="/Tropical Eco Still Life at Sunrise.png"
+          alt="Tropical eco still life at sunrise"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/60 to-transparent md:from-navy-950/90 md:via-navy-950/40 md:to-transparent" />
+
+        <Container className="relative z-10 w-full py-12 md:py-0">
+          <p className="mb-2 text-xs font-semibold tracking-[0.18em] text-gold-500 uppercase md:mb-3">
             Global Product Portfolio
           </p>
-          <h1 className="font-display max-w-3xl text-4xl font-semibold tracking-tight text-white md:text-5xl">
-            Products for wholesale and commercial inquiries.
+          <h1 className="font-display max-w-2xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+            Everyday essentials for home, pantry and growing.
           </h1>
-          <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/65 md:text-lg">
-            Explore Saakya Consolidated LLC categories across hygiene, food, Ceylon cinnamon, and coco
-            peat. Request availability and pricing directly.
+          <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/80 sm:text-base md:mt-5 lg:text-lg">
+            Explore TIA Products across tissue &amp; hygiene, wholesome foods, organic coconut products, Ceylon cinnamon, growing media, and Ceylon tea.
           </p>
-          <div className="mt-8">
+          <div className="mt-6 md:mt-8">
             <ButtonLink href="/contact" variant="gold">
               Request a Quote
             </ButtonLink>

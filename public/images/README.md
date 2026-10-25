@@ -8,7 +8,7 @@ This directory contains product images for CALI ONE SYNDICATE website.
 - masking-tape.jpg - Masking Tape
 - paper-masking-tape.avif - Paper Masking Tape (already exists in public/)
 - Kitchen_Roll.jpg - Kitchen Roll
-- toilet-paper.webp - Toilet Paper
+- toilet-paper.webp - Bath Tissues
 - COCOPEATBRICK.jpg - Coco Peat Brick/Briquette
 - cocochipbale.jpg - Coco Chips Bale
 - COCOPEATBALE.jpg - Coco Peat Bale

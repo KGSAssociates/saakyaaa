@@ -57,34 +57,40 @@ export default function ProductImage({
   );
 }
 
-// Product image mappings for easy reference
+// Product image mappings for easy reference (TIA Products catalog)
 export const productImages = {
-  // Tapes & Paper Products
-  'BOPP': '/images/BOPP.png',
-  'masking-tape': '/images/masking-tape.jpg',
-  'paper-masking-tape': '/images/paper-masking-tape.png',
-  'kitchen-roll': '/images/Kitchen_Roll.jpg',
-  'toilet-paper': '/images/toilet-paper.webp',
+  // Tissue & Hygiene
+  'bath-tissues': '/products/bath-tissues.png',
+  'paper-towels': '/products/paper-towels.png',
+  'pocket-tissues': '/products/pocket-tissues.png',
+  'car-door-tissue-pack': '/products/car-door-tissue-pack.png',
   
-  // Coir Products
-  'coco-peat-brick': '/images/COCOPEATBRICK.jpg',
-  'coco-chips-bale': '/images/cocochipbale.jpg',
-  'coco-peat-bale': '/images/COCOPEATBALE.jpg',
-  'grow-bags': '/images/growbag.jpg',
-  'compressed-coir-fibre': '/images/COMPRESSEDCOIRFIBREBALE.jpg',
-  
-  // Company
-  'logo': '/images/logo3.png',
+  // Wholesome Foods
+  'dehydrated-jackfruit': '/products/dehydrated-jackfruit.png',
+  'dehydrated-pineapple': '/products/dehydrated-pineapple.png',
+  'dehydrated-banana-coins': '/products/dehydrated-banana-coins.png',
+  'dehydrated-mango': '/products/dehydrated-mango.png',
+  'dehydrated-lime': '/products/dehydrated-lime.png',
+  'red-rice': '/products/red-rice.png',
 
-  // Food Items
-  'dehydrated-jackfruit': '/food/dehydrated-jackfruit.jpg',
-  'dehydrated-pineapple': '/food/dehydrated-pineapple.jpg',
-  'dehydrated-banana': '/food/dehydrated-banana.jpg',
-  'dehydrated-mango': '/food/dehydrated-mango.jpg',
-  'coconut-cream': '/food/coconut-cream.jpg',
-  'virgin-coconut-oil': '/food/virgin-coconut-oil.jpg',
-  'desiccated-coconut': '/food/desiccated-coconut.jpg',
-  'banana-peel-powder': '/food/banana-peel-powder.jpg',
-  'cinnamon-sticks': '/food/cinnamon-sticks.jpg',
-  'cinnamon-powder': '/food/cinnamon-powder.jpg',
+  // Coconut Range
+  'coconut-milk-powder': '/products/coconut-milk-powder.png',
+  'coconut-milk': '/products/coconut-milk.png',
+  'coconut-cream': '/products/coconut-cream.png',
+
+  // Ceylon Cinnamon
+  'cinnamon-sticks': '/products/cinnamon-sticks.png',
+  'cinnamon-powder': '/products/cinnamon-powder.png',
+
+  // Growing Solutions
+  'coco-peat-bricks': '/products/coco-peat-bricks.png',
+  'grow-bags': '/products/grow-bags.png',
+
+  // Ceylon Tea
+  'ceylon-tea': '/products/ceylon-tea.png',
+
+  // Company & Promotional
+  'logo': '/images/logo3.png',
+  'banner': '/Tia Tropical Product Showcase.png',
+  'flyer': '/WhatsApp Image 2026-10-25 at 09.58.33.jpeg',
 };
